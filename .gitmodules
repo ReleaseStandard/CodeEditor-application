@@ -1,0 +1,18 @@
+[submodule "CodeEditor-editor"]
+	path = CodeEditor-editor
+	url = https://github.com/ReleaseStandard/CodeEditor-editor
+[submodule "CodeEditor-application"]
+	path = CodeEditor-application
+	url = https://github.com/ReleaseStandard/CodeEditor-application
+[submodule "CodeEditor-language-java"]
+	path = CodeEditor-language-java
+	url = https://github.com/ReleaseStandard/CodeEditor-language-java
+[submodule "CodeEditor-language-python"]
+	path = CodeEditor-language-python
+	url = https://github.com/ReleaseStandard/CodeEditor-language-python
+[submodule "CodeEditor-language-cobol85"]
+	path = CodeEditor-language-cobol85
+	url = https://github.com/ReleaseStandard/CodeEditor-language-cobol85
+[submodule "CodeEditor-language-mksh"]
+	path = CodeEditor-language-mksh
+	url = https://github.com/ReleaseStandard/CodeEditor-language-mksh

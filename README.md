@@ -4,6 +4,7 @@ in one central repository.<br />
 How to use:<br />
 ```bash
 git clone https://github.com/ReleaseStandard/CodeEditor
+cd CodeEditor
 git submodule update --init --recursive
 ```
 Before working on CodeEditor you should wiki documentation.<br />

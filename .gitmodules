@@ -1,0 +1,3 @@
+[submodule "CodeEditor-buildSrc"]
+	path = CodeEditor-buildSrc
+	url = https://github.com/ReleaseStandard/CodeEditor-buildSrc

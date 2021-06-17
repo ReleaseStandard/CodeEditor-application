@@ -56,7 +56,7 @@ HashMap<String,Boolean> buildedMods = new HashMap<>();
 configurations.all {
 
     resolutionStrategy.dependencySubstitution.all { DependencySubstitution dependency ->
-        if (dependency.requested.group.equals('com.github.ReleaseStandard')) {
+        if (dependency.hasProperty('requested') && dependency.requested.hasProperty('group') != null && dependency.requested.group.equals('com.github.ReleaseStandard')) {
             String mname = dependency.requested.displayName;
             int li = mname.lastIndexOf(':');
             mname = mname.substring(0,li);

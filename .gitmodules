@@ -16,3 +16,18 @@
 [submodule "CodeEditor-language-mksh"]
 	path = CodeEditor-language-mksh
 	url = https://github.com/ReleaseStandard/CodeEditor-language-mksh
+[submodule "CodeEditor-language-html"]
+	path = CodeEditor-language-html
+	url = https://github.com/ReleaseStandard/CodeEditor-language-html
+[submodule "CodeEditor-language-universal"]
+	path = CodeEditor-language-universal
+	url = https://github.com/ReleaseStandard/CodeEditor-language-universal
+[submodule "CodeEditor-buildSrc"]
+	path = CodeEditor-buildSrc
+	url = https://github.com/ReleaseStandard/CodeEditor-buildSrc
+[submodule "CodeEditor-emptyPlugin"]
+	path = CodeEditor-emptyPlugin
+	url = https://github.com/ReleaseStandard/CodeEditor-emptyPlugin
+[submodule "CodeEditor-language-golang"]
+	path = CodeEditor-language-golang
+	url = https://github.com/ReleaseStandard/CodeEditor-language-golang

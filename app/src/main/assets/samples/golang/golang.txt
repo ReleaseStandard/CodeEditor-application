@@ -1,0 +1,69 @@
+package main
+
+import (
+    "fmt"
+    "time"
+)
+
+func readword(ch chan string) {
+    fmt.Println("Type a word, then hit Enter.")
+    var word string
+    fmt.Scanf("%s", &word)
+    ch <- word
+}
+
+func timeout(t chan bool) {
+    time.Sleep(5 * time.Second)
+    t <- false
+}
+
+func main() {
+    t := make(chan bool)
+    go timeout(t)
+
+    ch := make(chan string)
+    go readword(ch)
+
+    select {
+    case word := <-ch:
+        fmt.Println("Received", word)
+    case <-t:
+        fmt.Println("Timeout.")
+    }
+}
+
+import (
+    "testing"
+)
+
+func TestExtractUsername(t *testing.T) {
+	t.Run("withoutDot", func(t *testing.T) {
+		username := ExtractUsername("r@google.com")
+		if username != "r" {
+			t.Fatalf("Got: %v\n", username)
+		}
+	})
+
+	t.Run("withDot", func(t *testing.T) {
+		username := ExtractUsername("jonh.smith@example.com")
+		if username != "jonh.smith" {
+			t.Fatalf("Got: %v\n", username)
+		}
+	})
+
+}
+
+import (
+    "fmt"
+    "log"
+    "net/http"
+)
+
+func helloFunc(w http.ResponseWriter, r *http.Request) {
+    fmt.Fprintf(w, "Hello world!")
+}
+
+func main() {
+    http.HandleFunc("/", helloFunc)
+    log.Fatal(http.ListenAndServe(":8080", nil))
+}

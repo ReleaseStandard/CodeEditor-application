@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/editor-debug.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/40175d396f2ef6606e83f8457dc482bc/jetified-editor-debug/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/40175d396f2ef6606e83f8457dc482bc/jetified-editor-debug/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/40175d396f2ef6606e83f8457dc482bc/jetified-editor-debug/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

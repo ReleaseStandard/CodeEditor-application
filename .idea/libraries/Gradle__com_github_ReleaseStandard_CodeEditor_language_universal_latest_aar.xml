@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ReleaseStandard:CodeEditor-language-universal:latest@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b0e2c594fde83683ffb421cd6756743d/jetified-CodeEditor-language-universal-latest/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b0e2c594fde83683ffb421cd6756743d/jetified-CodeEditor-language-universal-latest/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b0e2c594fde83683ffb421cd6756743d/jetified-CodeEditor-language-universal-latest/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ReleaseStandard/CodeEditor-language-universal/latest/472cabf94328016e379c7941913934c4cbe7cbf/CodeEditor-language-universal-latest-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

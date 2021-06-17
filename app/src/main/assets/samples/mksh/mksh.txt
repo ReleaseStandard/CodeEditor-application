@@ -1,0 +1,246 @@
+# Generated test 1622852019
+# function
+function myfunction() {
+			 		true;
+		         		}
+function function() { true; }
+myfunction() { true; }
+mymymyfunction() { true; }
+ok() a='1'
+ok() ((a=1))
+ok() ( true )
+ok() { true }
+ok() { ( true ) ; }
+ok()
+
+
+
+
+						true;
+				
+ok() true;
+ok()
+
+
+
+
+
+
+						{ true; }
+				
+function ok()
+
+
+
+						{ true; }
+				
+function ok
+						() { true ; }
+
+# case_end
+
+					case a in
+						("ok")
+							true;
+						;;
+						"kk")
+							false;
+						;&
+						"ii")
+							true
+						;|
+					esac
+				
+case case in esac
+case a in
+
+
+
+						"ok")
+
+
+
+						;;
+
+					esac
+				
+
+# if_then_else
+if true ; then true; fi
+if true ; then true; elif true ; then true ; else true ; fi
+if true ; then true; elif true ; then true ; elif true ; then true ; else true ; fi
+
+# for_do_done
+for a in 'a' 'b' 'c' ; do true ; done
+
+# select_in
+select ok in 'ok' ; do true ; done
+select k in 'a' 'b' 'c' ; do true ; done
+
+# until_do
+until true ; do true ; done
+until true ; do true ; done
+
+# while_do
+while true ; do true ; done
+while true ; do true ; done
+
+					while true ; do
+					 true;
+					done
+				
+
+					while true ; do
+					 true;
+					 true;
+					 true
+					done
+				
+
+					while true ; do
+					 true;
+					 true;
+					 true
+					 while true ; do
+					  true;
+					  while true ; do
+					   true;
+					  done
+					 done
+					done
+				
+
+# let
+let a=1+1
+let a=1
+let a+=1
+let a-=1
+let a*=1
+let a/=1
+let a%=1
+let a<<<=1
+let a>>>=1
+let a<<=1
+let a>>=1
+let a&=1
+let a^=1
+let a|=1
+let a=1,a=1
+
+# test files
+#
+#
+#
+while true ; do true; done
+
+while true ; do
+    true ;
+done
+
+while true ; do
+    while true ; do
+        while true
+            do true
+        done
+    done
+done
+
+while true ; do while true ; do while true ; do true ; done ; done ; done
+
+true; true; true; true; true;
+true; true;
+
+
+while true ; do
+    if true ; then
+        true ;
+    fi
+done
+
+until true ; do
+    true;
+done
+
+for true in "ok" ; do
+    true ;
+done
+
+if true ; then true ; fi
+if true ; then
+    if true ; then
+        true ;
+    fi
+fi
+
+function test() {
+    true;
+}
+#
+#
+#
+while true ; do true; done
+
+while true ; do
+    true ;
+done
+
+while true ; do
+    while true ; do
+        while true
+            do true
+        done
+    done
+done
+
+while true ; do while true ; do while true ; do true ; done ; done ; done
+
+true; true; true; true; true;
+true; true;
+
+
+while true ; do
+    if true ; then
+        true ;
+    fi
+done
+
+until true ; do
+    true;
+done
+
+for true in "ok" ; do
+    true ;
+done
+
+if true ; then true ; fi
+if true ; then
+    if true ; then
+        true ;
+    fi
+fi
+
+function test() {
+    true;
+}
+
+# test assignement
+a="ok"
+a='ok'
+azeazeazeza='okokokokokokoko'
+
+# test exec
+exec false
+exec true
+exec false
+eval true
+eval exec true
+exec exec exec exec true
+exec eval exec true
+( true ) 
+( exec eval exec true )
+( ( ( true ) ) )
+( ( ( false ) ) )
+( { true } )
+( { { { true } } } )
+( exec true )
+

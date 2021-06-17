@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CodeEditor-editor" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CodeEditor-editor/buildSrc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/buildSrc" vcs="Git" />
+  </component>
+</project>

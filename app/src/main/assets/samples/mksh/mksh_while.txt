@@ -1,0 +1,47 @@
+#
+#
+#
+while true ; do true; done
+
+while true ; do
+    true ;
+done
+
+while true ; do
+    while true ; do
+        while true
+            do true
+        done
+    done
+done
+
+while true ; do while true ; do while true ; do true ; done ; done ; done
+
+true; true; true; true; true;
+true; true;
+
+
+while true ; do
+    if true ; then
+        true ;
+    fi
+done
+
+until true ; do
+    true;
+done
+
+for true in "ok" ; do
+    true ;
+done
+
+if true ; then true ; fi
+if true ; then
+    if true ; then
+        true ;
+    fi
+fi
+
+function test() {
+    true;
+}

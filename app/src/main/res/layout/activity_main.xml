@@ -92,30 +92,6 @@
         android:id="@+id/editor"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:config='
-        {
-            "core": {
-                "tabWidth": 4,
-                "textSize": 20
-            },
-            "extensions": {
-                "color": {
-                    "enabled": true,
-                    "defaultColors": [
-                        {"name": "accent1", "value": "#FFFF0000"},
-                    ],
-                },
-                "linenumber": {
-                    "enabled": false
-                },
-                "cursor": {
-                    "enabled": true,
-                    "blink": {
-                        "period": 1000
-                    }
-                }
-            }
-        }'
         android:layout_marginBottom="36dp" />
 
     <HorizontalScrollView

@@ -1,0 +1,23 @@
+{
+  "core": {
+    "tabWidth": 4,
+    "textSize": 20
+  },
+  "extensions": {
+    "color": {
+      "enabled": true,
+      "defaultColors": [
+        {"name": "accent1", "value": "#FFFF0000"}
+      ]
+    },
+    "linenumberpanel": {
+      "enabled": false
+    },
+    "cursor": {
+      "enabled": true,
+      "blink": {
+        "period": 1000
+      }
+    }
+  }
+}

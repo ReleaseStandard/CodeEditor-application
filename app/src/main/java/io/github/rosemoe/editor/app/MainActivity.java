@@ -36,10 +36,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 import io.github.rosemoe.editor.core.CodeEditor;
+import io.github.rosemoe.editor.core.extension.plugins.widgets.symbolinput.controller.SymbolInputController;
 import io.github.rosemoe.editor.core.langs.LanguagePlugin;
 import io.github.rosemoe.editor.core.langs.empty.EmptyLanguage;
 import io.github.rosemoe.editor.core.util.Logger;
-import io.github.rosemoe.editor.core.widgets.symbolinput.controller.SymbolInputController;
 import io.github.rosemoe.editor.plugins.color.ColorChooser;
 import io.github.rosemoe.editor.plugins.color.ColorPlugin;
 import io.github.rosemoe.editor.plugins.color.ColorPluginDarcula;

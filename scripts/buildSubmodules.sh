@@ -7,7 +7,7 @@
 out="/tmp/out"
 tmp="/tmp/tmp${RANDOM}${RANDOM}";
 dest="../app/libs/"
-
+MT=true
 function finit() {
 	if [ -d "$tmp" ] ; then
 		rm -fr "$tmp" ; 
@@ -17,15 +17,26 @@ function init() {
 	finit
 	mkdir -p "$tmp";
 }
-for mod in "$@" ; do
+function compileMod() {
+	local mod="$1"
+	local op="$(pwd)"
+
 	echo "Running on : $mod ..." > $out
-	op="$(pwd)"
-	cd "$mod"
-	./gradlew clean
-	./gradlew assembleDebug
-	for p in $(find -name "*.aar") ; do
-		mkdir -p "$op/libs/"
-		cp "$p" "$op/libs/"
-	done
-	cd "$op" 
+        cd "$mod"
+        ./gradlew clean
+        ./gradlew assembleDebug
+        for p in $(find -name "*.aar") ; do
+                mkdir -p "$op/libs/"
+                cp "$p" "$op/libs/"
+        done
+        cd "$op"
+
+}
+for mod in "$@" ; do
+	if $MT ; then
+		compileMod "$mod" &
+	else
+		compileMod "$mod"
+	fi
 done
+$MT && wait $(jobs -p)

@@ -1,3 +1,27 @@
 [submodule "buildSrc"]
 	path = buildSrc
 	url = ./buildSrc/
+[submodule "CodeEditor-language-html"]
+	path = CodeEditor-language-html
+	url = file:///DATA/CodeEditor/CodeEditor/CodeEditor-application/..//CodeEditor-language-html
+[submodule "CodeEditor-language-cobol85"]
+	path = CodeEditor-language-cobol85
+	url = file:///DATA/CodeEditor/CodeEditor/CodeEditor-application/..//CodeEditor-language-cobol85
+[submodule "CodeEditor-editor"]
+	path = CodeEditor-editor
+	url = file:///DATA/CodeEditor/CodeEditor/CodeEditor-application/..//CodeEditor-editor
+[submodule "CodeEditor-language-java"]
+	path = CodeEditor-language-java
+	url = file:///DATA/CodeEditor/CodeEditor/CodeEditor-application/..//CodeEditor-language-java
+[submodule "CodeEditor-language-universal"]
+	path = CodeEditor-language-universal
+	url = file:///DATA/CodeEditor/CodeEditor/CodeEditor-application/..//CodeEditor-language-universal
+[submodule "CodeEditor-language-golang"]
+	path = CodeEditor-language-golang
+	url = file:///DATA/CodeEditor/CodeEditor/CodeEditor-application/..//CodeEditor-language-golang
+[submodule "CodeEditor-language-python"]
+	path = CodeEditor-language-python
+	url = file:///DATA/CodeEditor/CodeEditor/CodeEditor-application/..//CodeEditor-language-python
+[submodule "CodeEditor-language-mksh"]
+	path = CodeEditor-language-mksh
+	url = file:///DATA/CodeEditor/CodeEditor/CodeEditor-application/..//CodeEditor-language-mksh

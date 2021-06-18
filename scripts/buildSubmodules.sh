@@ -21,6 +21,7 @@ for mod in "$@" ; do
 	echo "Running on : $mod ..." > $out
 	op="$(pwd)"
 	cd "$mod"
+	./gradlew clean
 	./gradlew assembleDebug
 	for p in $(find -name "*.aar") ; do
 		mkdir -p "$op/libs/"

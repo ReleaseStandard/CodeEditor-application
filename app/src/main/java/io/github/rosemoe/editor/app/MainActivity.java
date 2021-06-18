@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
         replace = findViewById(R.id.replace_editor);
         SymbolInputController sic = (SymbolInputController) editor.widgets.get("symbolinput");
         sic.attachView(findViewById(R.id.symbol_input));
-        sic.addSymbols(new String[]{"->", "{", "}", "(", ")", ",", ".", ";", "\"", "?", "+", "-", "*", "/"},
+        sic.addSymbols(new String[]{"TAB", "{", "}", "(", ")", ",", ".", ";", "\"", "?", "+", "-", "*", "/"},
                 new String[]{"\t", "{}", "}", "(", ")", ",", ".", ";", "\"", "?", "+", "-", "*", "/"});
 
         search.addTextChangedListener(new TextWatcher() {

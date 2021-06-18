@@ -35,11 +35,12 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import io.github.rosemoe.editor.TRASHwidget.SymbolInputView;
 import io.github.rosemoe.editor.core.CodeEditor;
 import io.github.rosemoe.editor.core.langs.LanguagePlugin;
 import io.github.rosemoe.editor.core.langs.empty.EmptyLanguage;
 import io.github.rosemoe.editor.core.util.Logger;
+import io.github.rosemoe.editor.core.widgets.symbolinput.controller.SymbolInputController;
+import io.github.rosemoe.editor.core.widgets.symbolinput.view.SymbolInputView;
 import io.github.rosemoe.editor.plugins.color.ColorChooser;
 import io.github.rosemoe.editor.plugins.color.ColorPlugin;
 import io.github.rosemoe.editor.plugins.color.ColorPluginDarcula;
@@ -121,9 +122,9 @@ public class MainActivity extends AppCompatActivity {
         panel = findViewById(R.id.search_panel);
         search = findViewById(R.id.search_editor);
         replace = findViewById(R.id.replace_editor);
-        SymbolInputView inputView = findViewById(R.id.symbol_input);
-        inputView.bindEditor(editor);
-        inputView.addSymbols(new String[]{"->", "{", "}", "(", ")", ",", ".", ";", "\"", "?", "+", "-", "*", "/"},
+        SymbolInputController sic = (SymbolInputController) editor.widgets.get("symbolinput");
+        sic.attachView(findViewById(R.id.symbol_input));
+        sic.addSymbols(new String[]{"->", "{", "}", "(", ")", ",", ".", ";", "\"", "?", "+", "-", "*", "/"},
                 new String[]{"\t", "{}", "}", "(", ")", ",", ".", ";", "\"", "?", "+", "-", "*", "/"});
 
         search.addTextChangedListener(new TextWatcher() {

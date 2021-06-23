@@ -12,6 +12,7 @@
     <mapping directory="$PROJECT_DIR$/CodeEditor-language-mksh" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/CodeEditor-language-python" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/CodeEditor-language-universal" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CodeEditor-logger-debug" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/buildSrc" vcs="Git" />
   </component>
 </project>

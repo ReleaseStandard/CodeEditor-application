@@ -45,6 +45,7 @@ dependencies {
     implementation 'com.github.ReleaseStandard:CodeEditor-language-universal:master-SNAPSHOT'
     implementation 'com.github.ReleaseStandard:CodeEditor-language-html:master-SNAPSHOT'
     implementation 'com.github.ReleaseStandard:CodeEditor-language-python:master-SNAPSHOT'
+    implementation 'com.github.ReleaseStandard:CodeEditor-logger-debug:master-SNAPSHOT'
     implementation 'com.google.android.material:material:1.3.0'
     implementation 'androidx.appcompat:appcompat:1.2.0'
     testImplementation 'junit:junit:4.12'

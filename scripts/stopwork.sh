@@ -26,6 +26,10 @@ function flushlibbuild() {
 	rm -f app/libs/*;
 }
 for plugin in "$@" ; do
+	if ! [ -L "$plugin" ] ; then
+		echo "Not working on $plugin ..."
+		continue
+	fi
 	echo "Stop working on $plugin"
 	rm -f "$plugin"
 	rm -fr ".git/modules/${plugin}";

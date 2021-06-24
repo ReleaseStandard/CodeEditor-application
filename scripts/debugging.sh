@@ -19,9 +19,11 @@ shift
 
 
 if [ "$cmd" = "enable" ] ; then
+	./workon CodeEditor-logger-debug
 	rpl "DEBUG = false" "DEBUG = true"
 elif [ "$cmd" = "disable" ] ; then
         rpl "DEBUG = true" "DEBUG = false"
+        ./stopwork CodeEditor-logger-debug
 elif [ "$cmd" = "state" ] ; then
 	grep "DEBUG = false" $Logger 2> /dev/null 1> /dev/null
 	if [ "$?" = "0" ] ; then

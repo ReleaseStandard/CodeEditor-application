@@ -12,6 +12,10 @@ if [ "$#" -eq "0" ] ; then
 fi
 
 for plugin in "$@" ; do
+	if [ -L "${plugin}" ] ; then
+		echo "Alrdy working on $plugin ..."
+		continue
+	fi
 	echo "Working on $plugin"
 	url="${base}/${plugin}"
 	echo "Getting module from url=${url} ..."

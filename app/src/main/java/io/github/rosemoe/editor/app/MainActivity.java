@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
         panel = findViewById(R.id.search_panel);
         search = findViewById(R.id.search_editor);
         replace = findViewById(R.id.replace_editor);
-        SymbolInputController sic = (SymbolInputController) editor.widgets.get("symbolinput");
+        SymbolInputController sic = (SymbolInputController) editor.systemPlugins.get("symbolinput");
         sic.attachView(findViewById(R.id.symbol_input));
         sic.addSymbols(new String[]{"TAB", "{", "}", "(", ")", ",", ".", ";", "\"", "?", "+", "-", "*", "/"},
                 new String[]{"\t", "{}", "}", "(", ")", ",", ".", ";", "\"", "?", "+", "-", "*", "/"});

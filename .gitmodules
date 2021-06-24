@@ -1,9 +1,3 @@
 [submodule "buildSrc"]
 	path = buildSrc
 	url = ./buildSrc/
-[submodule "CodeEditor-editor"]
-	path = CodeEditor-editor
-	url = file:///home/vi/Desktop/scriptapp/CodeEditor/CodeEditor/CodeEditor-application/..//CodeEditor-editor
-[submodule "CodeEditor-logger-debug"]
-	path = CodeEditor-logger-debug
-	url = file:///home/vi/Desktop/scriptapp/CodeEditor/CodeEditor/CodeEditor-application/..//CodeEditor-logger-debug

@@ -16,6 +16,7 @@
 package io.github.rosemoe.editor.app;
 
 import android.annotation.SuppressLint;
+import android.app.AlertDialog;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.text.Editable;
@@ -115,10 +116,12 @@ public class MainActivity extends AppCompatActivity {
         Logger.debug();
         CrashHandler.INSTANCE.init(this);
         setContentView(R.layout.activity_main);
+
         editor = CodeEditor.newInstance(this, R.id.editor_root_view);
 
         loadThemes();
         loadLangs();
+
         panel = findViewById(R.id.search_panel);
         search = findViewById(R.id.search_editor);
         replace = findViewById(R.id.replace_editor);

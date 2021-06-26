@@ -39,7 +39,6 @@ import java.io.InputStreamReader;
 import io.github.rosemoe.editor.core.CodeEditor;
 import io.github.rosemoe.editor.core.CodeEditorView;
 import io.github.rosemoe.editor.core.extension.plugins.widgets.linenumberpanel.LineNumberPanelView;
-import io.github.rosemoe.editor.core.extension.plugins.widgets.symbolinput.SymbolInputController;
 import io.github.rosemoe.editor.core.langs.LanguagePlugin;
 import io.github.rosemoe.editor.core.langs.empty.EmptyLanguage;
 import io.github.rosemoe.editor.core.util.Logger;
@@ -170,6 +169,7 @@ public class MainActivity extends AppCompatActivity {
     private ColorChooser colorChooser;
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        boolean b = Logger.DEBUG;
         switch (item.getItemId()) {
             case R.id.text_undo:
                 editor.undo();

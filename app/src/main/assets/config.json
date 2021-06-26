@@ -11,7 +11,7 @@
       ]
     },
     "linenumberpanel": {
-      "enabled": false
+      "enabled": true
     },
     "cursor": {
       "enabled": true,

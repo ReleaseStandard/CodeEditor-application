@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ReleaseStandard:CodeEditor-logger-debug:master-SNAPSHOT@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8c03282d938f372a6b28a8cfb6d4238b/CodeEditor-logger-debug-main-SNAPSHOT/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8c03282d938f372a6b28a8cfb6d4238b/CodeEditor-logger-debug-main-SNAPSHOT/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8c03282d938f372a6b28a8cfb6d4238b/CodeEditor-logger-debug-main-SNAPSHOT/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ReleaseStandard/CodeEditor-logger-debug/master-SNAPSHOT/310bcd5b673842e580aef16326539745e55d05ed/CodeEditor-logger-debug-master-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

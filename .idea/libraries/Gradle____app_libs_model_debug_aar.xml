@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: ./app/libs/model-debug.aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a8955693efb062cd6cbba82d39bb5cdf/jetified-model-debug/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a8955693efb062cd6cbba82d39bb5cdf/jetified-model-debug/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a8955693efb062cd6cbba82d39bb5cdf/jetified-model-debug/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/343f307be9c70fd01ae847a2325739ff/jetified-model-debug/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/343f307be9c70fd01ae847a2325739ff/jetified-model-debug/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/343f307be9c70fd01ae847a2325739ff/jetified-model-debug/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

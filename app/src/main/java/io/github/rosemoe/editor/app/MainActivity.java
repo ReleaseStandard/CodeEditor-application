@@ -20,6 +20,7 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -36,7 +37,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 import io.github.rosemoe.editor.core.CodeEditor;
-import io.github.rosemoe.editor.core.extension.plugins.widgets.symbolinput.controller.SymbolInputController;
+import io.github.rosemoe.editor.core.CodeEditorView;
+import io.github.rosemoe.editor.core.extension.plugins.widgets.linenumberpanel.LineNumberPanelView;
+import io.github.rosemoe.editor.core.extension.plugins.widgets.symbolinput.SymbolInputController;
 import io.github.rosemoe.editor.core.langs.LanguagePlugin;
 import io.github.rosemoe.editor.core.langs.empty.EmptyLanguage;
 import io.github.rosemoe.editor.core.util.Logger;
@@ -115,16 +118,13 @@ public class MainActivity extends AppCompatActivity {
         Logger.debug();
         CrashHandler.INSTANCE.init(this);
         setContentView(R.layout.activity_main);
-        editor = findViewById(R.id.editor);
+        editor = CodeEditor.newInstance(this, R.id.editor_root_view);
+
         loadThemes();
         loadLangs();
         panel = findViewById(R.id.search_panel);
         search = findViewById(R.id.search_editor);
         replace = findViewById(R.id.replace_editor);
-        SymbolInputController sic = (SymbolInputController) editor.systemPlugins.get("symbolinput");
-        sic.attachView(findViewById(R.id.symbol_input));
-        sic.addSymbols(new String[]{"TAB", "{", "}", "(", ")", ",", ".", ";", "\"", "?", "+", "-", "*", "/"},
-                new String[]{"\t", "{}", "}", "(", ")", ",", ".", ";", "\"", "?", "+", "-", "*", "/"});
 
         search.addTextChangedListener(new TextWatcher() {
             @Override
@@ -148,11 +148,11 @@ public class MainActivity extends AppCompatActivity {
         //setEditorLanguage(new MkshLanguage(), "samples/mksh/mksh.txt");
         setEditorLanguage((LanguagePlugin) editor.plugins.get("Java"), "samples/java/java.txt");
         //setEditorLanguage(new HTMLLanguage(),"samples/html/html.txt");
-        /*if ( Logger.DEBUG ) {
+        if ( Logger.DEBUG ) {
             new ColorPluginDebug(editor).apply();
-        } else {*/
+        } else {
             ColorPlugin.DEFAULT(editor).apply();
-        //}
+        }
         Logger.debug();
         editor.setNonPrintablePaintingFlags(CodeEditor.FLAG_DRAW_WHITESPACE_LEADING | CodeEditor.FLAG_DRAW_LINE_SEPARATOR);
         langChoose = new LanguageChooser(editor);
@@ -281,7 +281,7 @@ public class MainActivity extends AppCompatActivity {
             }
             case R.id.enable_logcat_logs:
                 Logger.DEBUG = ! Logger.DEBUG;
-                MenuItem mi = editor.findViewById(R.id.enable_logcat_logs);
+                MenuItem mi = editor.view.findViewById(R.id.enable_logcat_logs);
                 item.setChecked(Logger.DEBUG);
                 break;
             case R.id.editor_line_number: {

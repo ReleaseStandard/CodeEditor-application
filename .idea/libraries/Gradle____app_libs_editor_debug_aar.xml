@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: ./app/libs/editor-debug.aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/778704e5230f2deb1f3b41b2bdfacc83/jetified-editor-debug/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/778704e5230f2deb1f3b41b2bdfacc83/jetified-editor-debug/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/778704e5230f2deb1f3b41b2bdfacc83/jetified-editor-debug/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f96f3517eec886e04e80f6186675aa17/jetified-editor-debug/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f96f3517eec886e04e80f6186675aa17/jetified-editor-debug/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f96f3517eec886e04e80f6186675aa17/jetified-editor-debug/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

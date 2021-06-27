@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: ./app/libs/view-android-debug.aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/34c7cd345a99c16216dc6407d1bfe824/jetified-view-android-debug/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/34c7cd345a99c16216dc6407d1bfe824/jetified-view-android-debug/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/34c7cd345a99c16216dc6407d1bfe824/jetified-view-android-debug/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/38dd408ed734d8ac8595356398a14c28/jetified-view-android-debug/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/38dd408ed734d8ac8595356398a14c28/jetified-view-android-debug/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/38dd408ed734d8ac8595356398a14c28/jetified-view-android-debug/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

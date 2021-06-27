@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ReleaseStandard:CodeEditor-widget-symbolinput:master-SNAPSHOT@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4bc3f9fd24283cd529175167f4f192f9/jetified-CodeEditor-widget-symbolinput-master-SNAPSHOT/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4bc3f9fd24283cd529175167f4f192f9/jetified-CodeEditor-widget-symbolinput-master-SNAPSHOT/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4bc3f9fd24283cd529175167f4f192f9/jetified-CodeEditor-widget-symbolinput-master-SNAPSHOT/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ReleaseStandard/CodeEditor-widget-symbolinput/master-SNAPSHOT/c5934069c06885b744e2c7f72d45a30ae32a8c8c/CodeEditor-widget-symbolinput-master-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

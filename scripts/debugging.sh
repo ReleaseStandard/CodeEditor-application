@@ -18,12 +18,12 @@ cmd="$1"
 shift
 
 
-if [ "$cmd" = "enable" ] ; then
+if [ "$cmd" = "enable" ] || [ "$cmd" = "on" ] ; then
 	./workon CodeEditor-logger-debug
 	rpl "DEBUG = false" "DEBUG = true"
-elif [ "$cmd" = "disable" ] ; then
+elif [ "$cmd" = "disable" ] || [ "$cmd" = "off" ] ; then
+        ./workon CodeEditor-logger-debug
         rpl "DEBUG = true" "DEBUG = false"
-        ./stopwork CodeEditor-logger-debug
 elif [ "$cmd" = "state" ] ; then
 	grep "DEBUG = false" $Logger 2> /dev/null 1> /dev/null
 	if [ "$?" = "0" ] ; then

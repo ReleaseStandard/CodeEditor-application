@@ -89,62 +89,19 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="0.05">
-
-            <HorizontalScrollView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:layout_constraintTop_toTopOf="parent">
-
-                <io.github.rosemoe.editor.core.extension.plugins.widgets.symbolinput.SymbolInputView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
-
-            </HorizontalScrollView>
-        </androidx.constraintlayout.widget.ConstraintLayout>
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_weight="0.90"
+            android:layout_weight="0.95"
             android:layout_height="0dp" >
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:weightSum="1"
                 android:orientation="horizontal">
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="0dp"
-                    android:layout_weight="0.05"
-                    android:layout_height="match_parent" >
-                    <io.github.rosemoe.editor.core.extension.plugins.widgets.linenumberpanel.LineNumberPanelView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent" />
-                </androidx.constraintlayout.widget.ConstraintLayout>
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="0dp"
-                    android:layout_weight="0.80"
-                    android:layout_height="match_parent" >
-                    <io.github.rosemoe.editor.core.CodeEditorView
-                        android:id="@+id/editor"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent" />
-                </androidx.constraintlayout.widget.ConstraintLayout>
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="0dp"
-                    android:layout_weight="0.10"
-                    android:layout_height="match_parent" >
-                    <io.github.rosemoe.editor.core.extension.plugins.widgets.linenumberpanel.LineNumberPanelView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent" />
-                </androidx.constraintlayout.widget.ConstraintLayout>
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="0dp"
-                    android:layout_weight="0.05"
-                    android:layout_height="match_parent" >
-                    <io.github.rosemoe.editor.core.extension.plugins.widgets.linenumberpanel.LineNumberPanelView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent" />
-                </androidx.constraintlayout.widget.ConstraintLayout>
+                <io.github.rosemoe.editor.core.extension.plugins.widgets.linenumberpanel.LineNumberPanelView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent" />
+                <io.github.rosemoe.editor.core.CodeEditorView
+                    android:id="@+id/editor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
 

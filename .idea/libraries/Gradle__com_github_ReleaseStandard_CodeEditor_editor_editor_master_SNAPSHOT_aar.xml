@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ReleaseStandard.CodeEditor-editor:editor:master-SNAPSHOT@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/32ede779a4ee9185513785ee82a5d492/editor-master-SNAPSHOT/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/32ede779a4ee9185513785ee82a5d492/editor-master-SNAPSHOT/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/32ede779a4ee9185513785ee82a5d492/editor-master-SNAPSHOT/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ReleaseStandard.CodeEditor-editor/editor/master-SNAPSHOT/9074854541aadc4b67968b2f4d3bb6d60da076a9/editor-master-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

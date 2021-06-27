@@ -37,8 +37,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 import io.github.rosemoe.editor.core.CodeEditor;
-import io.github.rosemoe.editor.core.CodeEditorView;
-import io.github.rosemoe.editor.core.extension.plugins.widgets.linenumberpanel.LineNumberPanelView;
 import io.github.rosemoe.editor.core.langs.LanguagePlugin;
 import io.github.rosemoe.editor.core.langs.empty.EmptyLanguage;
 import io.github.rosemoe.editor.core.util.Logger;
@@ -161,6 +159,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main, menu);
+        //editor.symbolInputController.addItemToMenu(menu);
+        //if ( editor.lineNumber !=)
+        //editor.lineNumber.addItemToMenu(menu);
         return super.onCreateOptionsMenu(menu);
     }
 
@@ -284,10 +285,6 @@ public class MainActivity extends AppCompatActivity {
                 MenuItem mi = editor.view.findViewById(R.id.enable_logcat_logs);
                 item.setChecked(Logger.DEBUG);
                 break;
-            case R.id.editor_line_number: {
-                item.setChecked(editor.lineNumber.toggleIsEnabled());
-                break;
-            }
         }
         return super.onOptionsItemSelected(item);
     }

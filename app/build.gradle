@@ -40,6 +40,7 @@ android {
 }
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
+    implementation 'com.github.ReleaseStandard:CodeEditor-widget-linenumber:master-SNAPSHOT'
     implementation 'com.github.ReleaseStandard:CodeEditor-editor:master-SNAPSHOT'
     implementation 'com.github.ReleaseStandard:CodeEditor-language-java:master-SNAPSHOT'
     implementation 'com.github.ReleaseStandard:CodeEditor-language-universal:master-SNAPSHOT'

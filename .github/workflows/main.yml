@@ -24,7 +24,7 @@ jobs:
       run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
         
     - name: Build debug apk
-      run: ./gradlew clean assembleDebug
+      run: git submodule update --init --recursive && ./gradlew clean assembleDebug
 
     - name: Create release and upload apk
       uses: underwindfall/create-release-with-debugapk@v2.0.0

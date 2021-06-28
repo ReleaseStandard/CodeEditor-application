@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
     private CodeEditor editor;
     private LinearLayout panel;
     private EditText search, replace;
-
+    
     private MainActivityModel mam = new MainActivityModel();
 
     protected  void loadLangs() {

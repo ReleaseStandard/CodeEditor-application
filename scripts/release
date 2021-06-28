@@ -1,0 +1,17 @@
+#!/bin/bash
+# create a new release on github
+#
+
+prefix="app-"
+max="0"
+for v in $(git tag |grep $prefix) ; do
+	value="${v/$prefix/}"
+	if [ "$value" -gt "$max" ] ; then
+		max="$value"
+	fi
+done
+
+echo "Version selected : $max"
+git push && \
+ git tag "${prefix}${max}" && \
+ git push --tags -f

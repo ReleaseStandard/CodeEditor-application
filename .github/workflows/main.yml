@@ -21,7 +21,7 @@ jobs:
           java-version: 1.8
           
     - name: Set env
-      run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
+      run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV && echo "$RELEASE_VERSION"
         
     - name: Build debug apk
       run: git submodule update --init --recursive && ./gradlew clean assembleDebug

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/language-java-debug.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/54d86a9cfabeaa02fec1f2ef414f7a15/jetified-language-java-debug/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/54d86a9cfabeaa02fec1f2ef414f7a15/jetified-language-java-debug/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/54d86a9cfabeaa02fec1f2ef414f7a15/jetified-language-java-debug/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ReleaseStandard.CodeEditor-widget-linenumber:view-android:master-SNAPSHOT@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/57aa89d3c0010d260938119a416998f1/jetified-view-android-master-SNAPSHOT/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/57aa89d3c0010d260938119a416998f1/jetified-view-android-master-SNAPSHOT/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/57aa89d3c0010d260938119a416998f1/jetified-view-android-master-SNAPSHOT/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ReleaseStandard.CodeEditor-widget-linenumber/view-android/master-SNAPSHOT/ff6601a00fac4cb4f494b8a694346536461ac815/view-android-master-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

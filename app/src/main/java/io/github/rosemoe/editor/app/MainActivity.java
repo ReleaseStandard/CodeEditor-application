@@ -38,6 +38,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 import io.github.rosemoe.editor.core.CodeEditor;
+import io.github.rosemoe.editor.core.extension.plugins.widgets.WidgetExtensionController;
 import io.github.rosemoe.editor.core.langs.LanguagePlugin;
 import io.github.rosemoe.editor.core.langs.empty.EmptyLanguage;
 import io.github.rosemoe.editor.core.util.Logger;
@@ -71,12 +72,12 @@ public class MainActivity extends AppCompatActivity {
 
     protected  void loadLangs() {
         editor.plugins.put(
-            new UniversalLanguage(editor,new CDescription()),
-            new UniversalLanguage(editor,new CppDescription()),
-            new JavaLanguage(editor),
-            new HTMLLanguage(editor),
-            new PythonLanguage(editor),
-            new EmptyLanguage(editor)
+            //new UniversalLanguage(editor,new CDescription()),
+            //new UniversalLanguage(editor,new CppDescription()),
+            //new HTMLLanguage(editor),
+            //new PythonLanguage(editor),
+            //new EmptyLanguage(editor),
+            new JavaLanguage(editor)
         );
     }
     protected void loadThemes() {
@@ -108,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }).start();
     }
-
+    Menu menu = null;
     @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -118,6 +119,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         editor = CodeEditor.newInstance(this, R.id.editor_root_view);
+        ((WidgetExtensionController)editor.systemPlugins.get("linenumberpanel")).addItemToMenu();
+        ((WidgetExtensionController)editor.systemPlugins.get("symbolinput")).addItemToMenu();
+        if ( menu != null ) { editor.attachMenu(menu); }
 
         loadThemes();
         loadLangs();
@@ -158,13 +162,13 @@ public class MainActivity extends AppCompatActivity {
         langChoose = new LanguageChooser(editor);
         colorChooser = new ColorChooser(editor);
     }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main, menu);
-        //editor.symbolInputController.addItemToMenu(menu);
-        //if ( editor.lineNumber !=)
-        //editor.lineNumber.addItemToMenu(menu);
+        this.menu = menu;
+        if ( editor != null ) {
+            editor.attachMenu(menu);
+        }
         return super.onCreateOptionsMenu(menu);
     }
 
@@ -288,6 +292,8 @@ public class MainActivity extends AppCompatActivity {
                 MenuItem mi = editor.view.findViewById(R.id.enable_logcat_logs);
                 item.setChecked(Logger.DEBUG);
                 break;
+            default:
+
         }
         return super.onOptionsItemSelected(item);
     }

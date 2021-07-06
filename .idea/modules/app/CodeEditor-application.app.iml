@@ -72,10 +72,10 @@
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.12.3" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.12.3" level="project" />
     <orderEntry type="library" name="Gradle: org.gradle:gradle-core:1.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.ReleaseStandard:CodeEditor-widget-symbolinput:master-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Gradle: ./app/libs/editor-debug.aar" level="project" />
     <orderEntry type="library" name="Gradle: ./app/libs/controller-debug.aar" level="project" />
     <orderEntry type="library" name="Gradle: ./app/libs/view-android-debug.aar" level="project" />
-    <orderEntry type="library" name="Gradle: ./app/libs/language-java-debug.aar" level="project" />
     <orderEntry type="library" name="Gradle: ./app/libs/model-debug.aar" level="project" />
     <orderEntry type="library" name="Gradle: com.github.ReleaseStandard.CodeEditor-widget-linenumber:controller:master-SNAPSHOT@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.github.ReleaseStandard:CodeEditor-logger-debug:master-SNAPSHOT@aar" level="project" />
@@ -115,7 +115,10 @@
     <orderEntry type="library" name="Gradle: androidx.annotation:annotation-experimental:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.github.ReleaseStandard.CodeEditor-widget-linenumber:model:master-SNAPSHOT@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.github.ReleaseStandard.CodeEditor-widget-linenumber:view-android:master-SNAPSHOT@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.ReleaseStandard:CodeEditor-widget-symbolinput:master-SNAPSHOT@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.ReleaseStandard.CodeEditor-widget-symbolinput:controller:master-SNAPSHOT@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.ReleaseStandard.CodeEditor-widget-symbolinput:model:master-SNAPSHOT@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.ReleaseStandard.CodeEditor-widget-symbolinput:view-android:master-SNAPSHOT@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.ReleaseStandard:CodeEditor-language-java:master-SNAPSHOT@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.github.ReleaseStandard:CodeEditor-language-universal:master-SNAPSHOT@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.github.ReleaseStandard:CodeEditor-language-html:master-SNAPSHOT@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.github.ReleaseStandard:CodeEditor-language-python:master-SNAPSHOT@aar" level="project" />

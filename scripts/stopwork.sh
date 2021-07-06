@@ -32,7 +32,7 @@ for plugin in "$@" ; do
 	fi
 	echo "Stop working on $plugin"
 	rm -f "$plugin"
-	rm -fr ".git/modules/${plugin}";
+	rm -fr "../.git/modules/CodeEditor-application/modules/$plugin"
 	grep -v "${plugin}" .gitmodules > "$tmp";
 	mv "$tmp" .gitmodules
 done

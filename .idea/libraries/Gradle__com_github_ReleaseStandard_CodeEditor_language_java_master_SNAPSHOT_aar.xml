@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ReleaseStandard:CodeEditor-language-java:master-SNAPSHOT@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9f48b290295258425a3419d8aea28114/jetified-CodeEditor-language-java-master-SNAPSHOT/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9f48b290295258425a3419d8aea28114/jetified-CodeEditor-language-java-master-SNAPSHOT/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9f48b290295258425a3419d8aea28114/jetified-CodeEditor-language-java-master-SNAPSHOT/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ReleaseStandard/CodeEditor-language-java/master-SNAPSHOT/d73a002ae948ce048af28eaa1178013d7a58b801/CodeEditor-language-java-master-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

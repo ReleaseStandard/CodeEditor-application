@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.ReleaseStandard.CodeEditor-editor:controller:master-SNAPSHOT@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/724fdea3b6388b6d902a36d2655367cd/controller-master-SNAPSHOT/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/724fdea3b6388b6d902a36d2655367cd/controller-master-SNAPSHOT/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/724fdea3b6388b6d902a36d2655367cd/controller-master-SNAPSHOT/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/724fdea3b6388b6d902a36d2655367cd/jetified-controller-master-SNAPSHOT/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/724fdea3b6388b6d902a36d2655367cd/jetified-controller-master-SNAPSHOT/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/724fdea3b6388b6d902a36d2655367cd/jetified-controller-master-SNAPSHOT/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

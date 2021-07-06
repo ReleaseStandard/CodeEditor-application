@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.ReleaseStandard.CodeEditor-editor:view-android:master-SNAPSHOT@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/11b61de3003ebca7e8021d5641797d47/view-android-master-SNAPSHOT/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/11b61de3003ebca7e8021d5641797d47/view-android-master-SNAPSHOT/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/11b61de3003ebca7e8021d5641797d47/view-android-master-SNAPSHOT/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7066c7955cb1180c78a6773d06ed0886/view-android-master-SNAPSHOT/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7066c7955cb1180c78a6773d06ed0886/view-android-master-SNAPSHOT/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7066c7955cb1180c78a6773d06ed0886/view-android-master-SNAPSHOT/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ReleaseStandard.CodeEditor-editor/view-android/master-SNAPSHOT/1d82bca1d2a6cdd43814359817efec86029b8f0e/view-android-master-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ReleaseStandard.CodeEditor-editor/view-android/master-SNAPSHOT/bd82ade25f663522d164792f64e6193f89f4aea8/view-android-master-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

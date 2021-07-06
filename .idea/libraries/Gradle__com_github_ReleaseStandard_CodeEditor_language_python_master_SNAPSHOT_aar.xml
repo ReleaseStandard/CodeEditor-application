@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.ReleaseStandard:CodeEditor-language-python:master-SNAPSHOT@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d5bc7ce13a454494957e3f24401ebfcc/jetified-CodeEditor-language-python-master-SNAPSHOT/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d5bc7ce13a454494957e3f24401ebfcc/jetified-CodeEditor-language-python-master-SNAPSHOT/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d5bc7ce13a454494957e3f24401ebfcc/jetified-CodeEditor-language-python-master-SNAPSHOT/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a9b4ff7be6d4cd10a1c5e926763348a8/jetified-CodeEditor-language-python-master-SNAPSHOT/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a9b4ff7be6d4cd10a1c5e926763348a8/jetified-CodeEditor-language-python-master-SNAPSHOT/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a9b4ff7be6d4cd10a1c5e926763348a8/jetified-CodeEditor-language-python-master-SNAPSHOT/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ReleaseStandard/CodeEditor-language-python/master-SNAPSHOT/f07a8637b103be061ee6669d263454599c0612b6/CodeEditor-language-python-master-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ReleaseStandard/CodeEditor-language-python/master-SNAPSHOT/eab9c3160a0c672e01683bfc5eff30400fab2347/CodeEditor-language-python-master-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

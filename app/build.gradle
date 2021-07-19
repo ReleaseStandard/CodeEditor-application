@@ -89,4 +89,10 @@ configurations.all {
             }
         }
     }
+
+    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+	def g = details.requested
+	println "name=" + g.getName() + ",group=" + g.getGroup() + ",version=" + g.getVersion()
+    }
 }
+

@@ -32,18 +32,6 @@ buildscript {
     }
 }
 
-allprojects {
-    repositories {
-        google()
-        jcenter()
-        maven { url = "http://maven.aliyun.com/nexus/content/groups/public/" }
-        maven { url = 'https://jitpack.io' }
-        flatDir {
-            dirs 'libs'
-        }
-    }
-}
-
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
@@ -57,3 +45,14 @@ configurations.all {
     resolutionStrategy.cacheDynamicVersionsFor 0, 'minutes'
 }
 
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url = "http://maven.aliyun.com/nexus/content/groups/public/" }
+        maven { url = 'https://jitpack.io' }
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}

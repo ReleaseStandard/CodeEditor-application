@@ -33,5 +33,5 @@ jobs:
       run: chmod +x gradlew
 
     - name: Upload to the staging repository
-      run: git submodule update --init --recursive && ./gradlew assemble && ./gradlew publishToSonatype closeAndReleaseStagingRepository
+      run: git submodule update --init --recursive && ./gradlew assemble && ./gradlew produceBigJar && ./gradlew publishToSonatype closeAndReleaseStagingRepository
 

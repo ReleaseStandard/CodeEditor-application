@@ -1,1 +1,1 @@
-apply from: 'buildSrc/outputs/settings.modules.gradle'
+apply from: 'buildSrc/outputs/settings/modules.gradle'

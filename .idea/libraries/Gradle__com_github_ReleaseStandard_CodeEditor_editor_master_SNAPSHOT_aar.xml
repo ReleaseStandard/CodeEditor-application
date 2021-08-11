@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ReleaseStandard:CodeEditor-editor:master-SNAPSHOT@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f842ddf4d3f2874d425e6398545e2c0/CodeEditor-editor-master-SNAPSHOT/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f842ddf4d3f2874d425e6398545e2c0/CodeEditor-editor-master-SNAPSHOT/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f842ddf4d3f2874d425e6398545e2c0/CodeEditor-editor-master-SNAPSHOT/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f842ddf4d3f2874d425e6398545e2c0/CodeEditor-editor-master-SNAPSHOT/jars/libs/model-master-746f19097a-1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f842ddf4d3f2874d425e6398545e2c0/CodeEditor-editor-master-SNAPSHOT/jars/libs/logger-debug-61.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ReleaseStandard/CodeEditor-editor/master-SNAPSHOT/f84b29799aa5061b2927214859f1877db7851aac/CodeEditor-editor-master-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ReleaseStandard/CodeEditor-editor/master-SNAPSHOT/f84b29799aa5061b2927214859f1877db7851aac/CodeEditor-editor-master-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

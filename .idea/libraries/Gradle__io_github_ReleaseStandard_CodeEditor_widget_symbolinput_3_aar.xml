@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.ReleaseStandard.CodeEditor:widget-symbolinput:3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/54283151a2af26cdb9e3f166c0c99013/jetified-widget-symbolinput-3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/54283151a2af26cdb9e3f166c0c99013/jetified-widget-symbolinput-3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/54283151a2af26cdb9e3f166c0c99013/jetified-widget-symbolinput-3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/54283151a2af26cdb9e3f166c0c99013/jetified-widget-symbolinput-3/jars/libs/logger-debug-61.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.ReleaseStandard.CodeEditor/widget-symbolinput/3/f0e5edae46926dbeadeaa9af3a8717f3d36cb71c/widget-symbolinput-3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.ReleaseStandard.CodeEditor/widget-symbolinput/3/f0e5edae46926dbeadeaa9af3a8717f3d36cb71c/widget-symbolinput-3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

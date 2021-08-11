@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.ReleaseStandard.CodeEditor:widget-linenumber:3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fd1189969d6709c9fb03ec2dd70f2b69/jetified-widget-linenumber-3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fd1189969d6709c9fb03ec2dd70f2b69/jetified-widget-linenumber-3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fd1189969d6709c9fb03ec2dd70f2b69/jetified-widget-linenumber-3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.ReleaseStandard.CodeEditor/widget-linenumber/3/26bf6c2d37364b78e18d4c54f9d241105c2646b7/widget-linenumber-3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.ReleaseStandard.CodeEditor/widget-linenumber/3/26bf6c2d37364b78e18d4c54f9d241105c2646b7/widget-linenumber-3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
